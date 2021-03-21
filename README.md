@@ -6,14 +6,14 @@ Esse projeto é para treinar os conceitos de SOLID em Node.js. Essa será uma ap
 
 - [x] Deve ser possível criar um usuário;
 - [x] Deve ser possível transformar um usuário como administrador;
+- [x] Deve ser possível encontrar o usuário por ID;
 - [ ] Deve ser possível listar todos os usuários;
-- [ ] Deve ser possível encontrar o usuário por ID;
-- [ ] Deve ser possível encontrar o usuário pelo endereço de e-mail.
+- [x] Deve ser possível encontrar o usuário pelo endereço de e-mail.
 
 ## Regras de negócio
 
 - [x] Não deve ser possível criar novos usuários quando o e-mail já foi recebido;
 - [x] Não deve ser possível transformar um usuário inexistente como administrador;
-- [ ] Não deve ser possível mostrar o perfil de um usuário não existente;
+- [x] Não deve ser possível mostrar o perfil de um usuário não existente;
 - [ ] Não deve ser possível usuário não administrador obter a lista de todos os usuários;
 - [ ] Não deve ser possível um usuário inexistente obter uma lista de todos os usuários.
